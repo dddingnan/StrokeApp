@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		001762E9814D483C9B774CD8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DE7A84C8BF347548022B8A1 /* MaterialIcons.ttf */; };
 		00E356F31AD99517003FC87E /* StrokeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StrokeAppTests.m */; };
-		0161805C312EBD7860F5CB69 /* libPods-StrokeApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 915D9B71A6D1F214DAFA8D01 /* libPods-StrokeApp-tvOSTests.a */; };
 		0284A94B3F4F4E5494A88EAF /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0017964B1FF4D368F141BD8 /* Ionicons.ttf */; };
 		0962063DCACE4B0AAC6EDBD0 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9CB30AB18D54C259B392600 /* FontAwesome5_Brands.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -24,21 +23,74 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* StrokeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StrokeAppTests.m */; };
 		44B1DBF3DE884596968200E0 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51ACE39F460547248B978DF4 /* EvilIcons.ttf */; };
+		44DA98ED77DC6CE83125768E /* libPods-StrokeApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B1EE7EE4CA07F9BF7B199 /* libPods-StrokeApp-tvOS.a */; };
 		4737FD3670E14B58B6896340 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81F6EFD0962E4E8F9A4C6482 /* Roboto.ttf */; };
 		524469369D4D462B844F1B45 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC3C355197E7405191574E67 /* Entypo.ttf */; };
 		5D7B670731DF46C086930E23 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABCE4D1C5FCF4D9DB15F9332 /* Feather.ttf */; };
+		6956576FC6D8ACDDA7FC407A /* libPods-StrokeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A20BFF28C0E8C622EF85199F /* libPods-StrokeApp.a */; };
+		6FFA495BF815CB6D4E288166 /* libPods-StrokeApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C99AE5672329C6C0017B0721 /* libPods-StrokeApp-tvOSTests.a */; };
 		855872A9019F4E0CB49B496D /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7A58585C30F48AFBAF8BF2E /* Fontisto.ttf */; };
-		989CE33D3327525A8E839F45 /* libPods-StrokeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 281BF44C08CB47AFD450E412 /* libPods-StrokeAppTests.a */; };
 		9D98D9AC3B2B4C08ACC754EB /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57645F468D1B493FB36AC633 /* Roboto_medium.ttf */; };
 		BCAB2678D5FC4814B3682955 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 312B5E47E638492381CD21FA /* rubicon-icon-font.ttf */; };
 		C3E553EF342042868F632608 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F598465FF0B4450C9F06B9CE /* MaterialCommunityIcons.ttf */; };
-		D388AFB17FEF9AC6D8728C6B /* libPods-StrokeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0296FA672454267DAA6267CF /* libPods-StrokeApp.a */; };
 		E3736211D71E4F49A5CD8CAC /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E21AFAA332AC42E1A3927E00 /* Zocial.ttf */; };
+		E724DB6F85D27FED0DF015B0 /* libPods-StrokeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBB2DE2C984034D04B76C9F /* libPods-StrokeAppTests.a */; };
 		E85AAF892E9848529B54275F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 400C0C7C3C0646DFBCF21490 /* FontAwesome5_Solid.ttf */; };
-		EAA867062B52E336567EE348 /* libPods-StrokeApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EF9B66A9DACA46756D7E0D /* libPods-StrokeApp-tvOS.a */; };
 		EB4D1DB323DE458EB91A645A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E73FEC5704671AE74D329 /* FontAwesome5_Regular.ttf */; };
 		ECA87D2C728F49C197C365BD /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9443D02724E6986AB9A97 /* AntDesign.ttf */; };
 		F0ADE435011E434A9A4C233D /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34922B00E5047229E4D7A61 /* FontAwesome.ttf */; };
+		F90905D7234879A1008AFDAD /* IndexValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9090595234879A1008AFDAD /* IndexValueFormatter.swift */; };
+		F90905D8234879A1008AFDAD /* RNCombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9090597234879A1008AFDAD /* RNCombinedChartView.swift */; };
+		F90905D9234879A1008AFDAD /* RNCombinedChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9090598234879A1008AFDAD /* RNCombinedChartManager.swift */; };
+		F90905DA234879A1008AFDAD /* RNCombinedChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F9090599234879A1008AFDAD /* RNCombinedChartManagerBridge.m */; };
+		F90905DB234879A1008AFDAD /* CombinedDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909059A234879A1008AFDAD /* CombinedDataExtract.swift */; };
+		F90905DC234879A1008AFDAD /* RNYAxisChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909059B234879A1008AFDAD /* RNYAxisChartViewBase.swift */; };
+		F90905DD234879A1008AFDAD /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909059C234879A1008AFDAD /* BalloonMarker.swift */; };
+		F90905DE234879A1008AFDAD /* RNBarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909059D234879A1008AFDAD /* RNBarLineChartViewBase.swift */; };
+		F90905DF234879A1008AFDAD /* ChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909059F234879A1008AFDAD /* ChartDateFormatter.swift */; };
+		F90905E0234879A1008AFDAD /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A0234879A1008AFDAD /* LargeValueFormatter.swift */; };
+		F90905E1234879A1008AFDAD /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A2234879A1008AFDAD /* FontUtils.swift */; };
+		F90905E2234879A1008AFDAD /* EntryToDictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A3234879A1008AFDAD /* EntryToDictionaryUtils.swift */; };
+		F90905E3234879A1008AFDAD /* ChartDataSetConfigUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A4234879A1008AFDAD /* ChartDataSetConfigUtils.swift */; };
+		F90905E4234879A1008AFDAD /* HighlightUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A5234879A1008AFDAD /* HighlightUtils.swift */; };
+		F90905E5234879A1008AFDAD /* BridgeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A6234879A1008AFDAD /* BridgeUtils.swift */; };
+		F90905E6234879A1008AFDAD /* RNBubbleChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905A9234879A1008AFDAD /* RNBubbleChartManager.swift */; };
+		F90905E7234879A1008AFDAD /* RNBubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905AA234879A1008AFDAD /* RNBubbleChartView.swift */; };
+		F90905E8234879A1008AFDAD /* BubbleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905AB234879A1008AFDAD /* BubbleDataExtract.swift */; };
+		F90905E9234879A1008AFDAD /* RNBubbleChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905AC234879A1008AFDAD /* RNBubbleChartManagerBridge.m */; };
+		F90905EA234879A1008AFDAD /* CustomChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905AD234879A1008AFDAD /* CustomChartDateFormatter.swift */; };
+		F90905EB234879A1008AFDAD /* RNBarLineChartBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905AE234879A1008AFDAD /* RNBarLineChartBaseManager.swift */; };
+		F90905EC234879A1008AFDAD /* RNPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B1234879A1008AFDAD /* RNPieChartView.swift */; };
+		F90905ED234879A1008AFDAD /* RNPieChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905B2234879A1008AFDAD /* RNPieChartManagerBridge.m */; };
+		F90905EE234879A1008AFDAD /* PieDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B3234879A1008AFDAD /* PieDataExtract.swift */; };
+		F90905EF234879A1008AFDAD /* RNPieChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B4234879A1008AFDAD /* RNPieChartManager.swift */; };
+		F90905F0234879A1008AFDAD /* RNScatterChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B6234879A1008AFDAD /* RNScatterChartManager.swift */; };
+		F90905F1234879A1008AFDAD /* RNScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B7234879A1008AFDAD /* RNScatterChartView.swift */; };
+		F90905F2234879A1008AFDAD /* RNScatterChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905B8234879A1008AFDAD /* RNScatterChartManagerBridge.m */; };
+		F90905F3234879A1008AFDAD /* ScatterDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905B9234879A1008AFDAD /* ScatterDataExtract.swift */; };
+		F90905F4234879A1008AFDAD /* RNLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905BB234879A1008AFDAD /* RNLineChartView.swift */; };
+		F90905F5234879A1008AFDAD /* RNLineChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905BC234879A1008AFDAD /* RNLineChartManager.swift */; };
+		F90905F6234879A1008AFDAD /* RNLineChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905BD234879A1008AFDAD /* RNLineChartManagerBridge.m */; };
+		F90905F7234879A1008AFDAD /* LineDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905BE234879A1008AFDAD /* LineDataExtract.swift */; };
+		F90905F8234879A1008AFDAD /* CandleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C0234879A1008AFDAD /* CandleDataExtract.swift */; };
+		F90905F9234879A1008AFDAD /* RNCandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C1234879A1008AFDAD /* RNCandleStickChartView.swift */; };
+		F90905FA234879A1008AFDAD /* RNCandleStickChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C2234879A1008AFDAD /* RNCandleStickChartManager.swift */; };
+		F90905FB234879A1008AFDAD /* RNCandleStickChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905C3234879A1008AFDAD /* RNCandleStickChartManagerBridge.m */; };
+		F90905FC234879A1008AFDAD /* RNBarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C7234879A1008AFDAD /* RNBarChartViewBase.swift */; };
+		F90905FD234879A1008AFDAD /* BarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C8234879A1008AFDAD /* BarDataExtract.swift */; };
+		F90905FE234879A1008AFDAD /* RNHorizontalBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905C9234879A1008AFDAD /* RNHorizontalBarChartManager.swift */; };
+		F90905FF234879A1008AFDAD /* RNBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905CA234879A1008AFDAD /* RNBarChartManager.swift */; };
+		F9090600234879A1008AFDAD /* RNBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905CB234879A1008AFDAD /* RNBarChartManagerBridge.m */; };
+		F9090601234879A1008AFDAD /* RNBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905CC234879A1008AFDAD /* RNBarChartView.swift */; };
+		F9090602234879A1008AFDAD /* RNHorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905CD234879A1008AFDAD /* RNHorizontalBarChartView.swift */; };
+		F9090603234879A1008AFDAD /* RNHorizontalBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905CE234879A1008AFDAD /* RNHorizontalBarChartManagerBridge.m */; };
+		F9090604234879A1008AFDAD /* RadarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D0234879A1008AFDAD /* RadarDataExtract.swift */; };
+		F9090605234879A1008AFDAD /* RNRadarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = F90905D1234879A1008AFDAD /* RNRadarChartManagerBridge.m */; };
+		F9090606234879A1008AFDAD /* RNRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D2234879A1008AFDAD /* RNRadarChartView.swift */; };
+		F9090607234879A1008AFDAD /* RNRadarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D3234879A1008AFDAD /* RNRadarChartManager.swift */; };
+		F9090608234879A1008AFDAD /* RNChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D4234879A1008AFDAD /* RNChartViewBase.swift */; };
+		F9090609234879A1008AFDAD /* ChartGroupHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D5234879A1008AFDAD /* ChartGroupHolder.swift */; };
+		F909060A234879A1008AFDAD /* DataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D6234879A1008AFDAD /* DataExtract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +115,6 @@
 		00E356EE1AD99517003FC87E /* StrokeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrokeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* StrokeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeAppTests.m; sourceTree = "<group>"; };
-		0296FA672454267DAA6267CF /* libPods-StrokeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* StrokeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrokeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StrokeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = StrokeApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -74,22 +125,21 @@
 		1C2E2DD65A22194E3B71D4E2 /* Pods-StrokeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeAppTests.release.xcconfig"; path = "Target Support Files/Pods-StrokeAppTests/Pods-StrokeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		1C998AD46B83161B3F073611 /* Pods-StrokeApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-StrokeApp-tvOSTests/Pods-StrokeApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		2060B3F679D09DC2CF09E270 /* Pods-StrokeApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-StrokeApp-tvOS/Pods-StrokeApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		281BF44C08CB47AFD450E412 /* libPods-StrokeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* StrokeApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StrokeApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* StrokeApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StrokeApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBB2DE2C984034D04B76C9F /* libPods-StrokeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE7A84C8BF347548022B8A1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		312B5E47E638492381CD21FA /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		400C0C7C3C0646DFBCF21490 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		448405F0A0554F79B0AFDACC /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		44EF9B66A9DACA46756D7E0D /* libPods-StrokeApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		485C9ECF19FF175213DE0B2D /* Pods-StrokeApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-StrokeApp-tvOS/Pods-StrokeApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		51ACE39F460547248B978DF4 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		57645F468D1B493FB36AC633 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		81F6EFD0962E4E8F9A4C6482 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
 		86231BDCC82148918AAFFC19 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		915D9B71A6D1F214DAFA8D01 /* libPods-StrokeApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4E73FEC5704671AE74D329 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		9AF9443D02724E6986AB9A97 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A20BFF28C0E8C622EF85199F /* libPods-StrokeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34922B00E5047229E4D7A61 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		A9CB30AB18D54C259B392600 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		ABCE4D1C5FCF4D9DB15F9332 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
@@ -98,6 +148,7 @@
 		B89EED558862434AFAE4D62B /* Pods-StrokeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp.release.xcconfig"; path = "Target Support Files/Pods-StrokeApp/Pods-StrokeApp.release.xcconfig"; sourceTree = "<group>"; };
 		BAB04234DDC0434E999BE4BD /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		C303BB4AE31163D20EF468A2 /* Pods-StrokeApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-StrokeApp-tvOSTests/Pods-StrokeApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C99AE5672329C6C0017B0721 /* libPods-StrokeApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C355197E7405191574E67 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		DEDD1B62772B5D04235287B4 /* Pods-StrokeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeApp.debug.xcconfig"; path = "Target Support Files/Pods-StrokeApp/Pods-StrokeApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E21AFAA332AC42E1A3927E00 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -105,7 +156,66 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F598465FF0B4450C9F06B9CE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		F98F9156233D05F70079F89C /* StrokeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrokeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F909058F234878CA008AFDAD /* cxxreact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = cxxreact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9090591234878EE008AFDAD /* DoubleConversion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DoubleConversion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9090595234879A1008AFDAD /* IndexValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexValueFormatter.swift; sourceTree = "<group>"; };
+		F9090597234879A1008AFDAD /* RNCombinedChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartView.swift; sourceTree = "<group>"; };
+		F9090598234879A1008AFDAD /* RNCombinedChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartManager.swift; sourceTree = "<group>"; };
+		F9090599234879A1008AFDAD /* RNCombinedChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCombinedChartManagerBridge.m; sourceTree = "<group>"; };
+		F909059A234879A1008AFDAD /* CombinedDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedDataExtract.swift; sourceTree = "<group>"; };
+		F909059B234879A1008AFDAD /* RNYAxisChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNYAxisChartViewBase.swift; sourceTree = "<group>"; };
+		F909059C234879A1008AFDAD /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		F909059D234879A1008AFDAD /* RNBarLineChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartViewBase.swift; sourceTree = "<group>"; };
+		F909059F234879A1008AFDAD /* ChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDateFormatter.swift; sourceTree = "<group>"; };
+		F90905A0234879A1008AFDAD /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		F90905A2234879A1008AFDAD /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
+		F90905A3234879A1008AFDAD /* EntryToDictionaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryToDictionaryUtils.swift; sourceTree = "<group>"; };
+		F90905A4234879A1008AFDAD /* ChartDataSetConfigUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDataSetConfigUtils.swift; sourceTree = "<group>"; };
+		F90905A5234879A1008AFDAD /* HighlightUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightUtils.swift; sourceTree = "<group>"; };
+		F90905A6234879A1008AFDAD /* BridgeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeUtils.swift; sourceTree = "<group>"; };
+		F90905A7234879A1008AFDAD /* RNChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNChartManagerBridge.h; sourceTree = "<group>"; };
+		F90905A9234879A1008AFDAD /* RNBubbleChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartManager.swift; sourceTree = "<group>"; };
+		F90905AA234879A1008AFDAD /* RNBubbleChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartView.swift; sourceTree = "<group>"; };
+		F90905AB234879A1008AFDAD /* BubbleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDataExtract.swift; sourceTree = "<group>"; };
+		F90905AC234879A1008AFDAD /* RNBubbleChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBubbleChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905AD234879A1008AFDAD /* CustomChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChartDateFormatter.swift; sourceTree = "<group>"; };
+		F90905AE234879A1008AFDAD /* RNBarLineChartBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartBaseManager.swift; sourceTree = "<group>"; };
+		F90905AF234879A1008AFDAD /* RNYAxisChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYAxisChartManagerBridge.h; sourceTree = "<group>"; };
+		F90905B1234879A1008AFDAD /* RNPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartView.swift; sourceTree = "<group>"; };
+		F90905B2234879A1008AFDAD /* RNPieChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPieChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905B3234879A1008AFDAD /* PieDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieDataExtract.swift; sourceTree = "<group>"; };
+		F90905B4234879A1008AFDAD /* RNPieChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartManager.swift; sourceTree = "<group>"; };
+		F90905B6234879A1008AFDAD /* RNScatterChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartManager.swift; sourceTree = "<group>"; };
+		F90905B7234879A1008AFDAD /* RNScatterChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartView.swift; sourceTree = "<group>"; };
+		F90905B8234879A1008AFDAD /* RNScatterChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNScatterChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905B9234879A1008AFDAD /* ScatterDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterDataExtract.swift; sourceTree = "<group>"; };
+		F90905BB234879A1008AFDAD /* RNLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartView.swift; sourceTree = "<group>"; };
+		F90905BC234879A1008AFDAD /* RNLineChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartManager.swift; sourceTree = "<group>"; };
+		F90905BD234879A1008AFDAD /* RNLineChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905BE234879A1008AFDAD /* LineDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDataExtract.swift; sourceTree = "<group>"; };
+		F90905C0234879A1008AFDAD /* CandleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleDataExtract.swift; sourceTree = "<group>"; };
+		F90905C1234879A1008AFDAD /* RNCandleStickChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartView.swift; sourceTree = "<group>"; };
+		F90905C2234879A1008AFDAD /* RNCandleStickChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartManager.swift; sourceTree = "<group>"; };
+		F90905C3234879A1008AFDAD /* RNCandleStickChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCandleStickChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905C4234879A1008AFDAD /* RNBarLineChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarLineChartManagerBridge.h; sourceTree = "<group>"; };
+		F90905C5234879A1008AFDAD /* RNCharts-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		F90905C7234879A1008AFDAD /* RNBarChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartViewBase.swift; sourceTree = "<group>"; };
+		F90905C8234879A1008AFDAD /* BarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDataExtract.swift; sourceTree = "<group>"; };
+		F90905C9234879A1008AFDAD /* RNHorizontalBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartManager.swift; sourceTree = "<group>"; };
+		F90905CA234879A1008AFDAD /* RNBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartManager.swift; sourceTree = "<group>"; };
+		F90905CB234879A1008AFDAD /* RNBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905CC234879A1008AFDAD /* RNBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartView.swift; sourceTree = "<group>"; };
+		F90905CD234879A1008AFDAD /* RNHorizontalBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartView.swift; sourceTree = "<group>"; };
+		F90905CE234879A1008AFDAD /* RNHorizontalBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHorizontalBarChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905D0234879A1008AFDAD /* RadarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarDataExtract.swift; sourceTree = "<group>"; };
+		F90905D1234879A1008AFDAD /* RNRadarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRadarChartManagerBridge.m; sourceTree = "<group>"; };
+		F90905D2234879A1008AFDAD /* RNRadarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartView.swift; sourceTree = "<group>"; };
+		F90905D3234879A1008AFDAD /* RNRadarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartManager.swift; sourceTree = "<group>"; };
+		F90905D4234879A1008AFDAD /* RNChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNChartViewBase.swift; sourceTree = "<group>"; };
+		F90905D5234879A1008AFDAD /* ChartGroupHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGroupHolder.swift; sourceTree = "<group>"; };
+		F90905D6234879A1008AFDAD /* DataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtract.swift; sourceTree = "<group>"; };
+		F909060B23487ADE008AFDAD /* StrokeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrokeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC3B1EE7EE4CA07F9BF7B199 /* libPods-StrokeApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989CE33D3327525A8E839F45 /* libPods-StrokeAppTests.a in Frameworks */,
+				E724DB6F85D27FED0DF015B0 /* libPods-StrokeAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +231,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D388AFB17FEF9AC6D8728C6B /* libPods-StrokeApp.a in Frameworks */,
+				6956576FC6D8ACDDA7FC407A /* libPods-StrokeApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +239,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA867062B52E336567EE348 /* libPods-StrokeApp-tvOS.a in Frameworks */,
+				44DA98ED77DC6CE83125768E /* libPods-StrokeApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0161805C312EBD7860F5CB69 /* libPods-StrokeApp-tvOSTests.a in Frameworks */,
+				6FFA495BF815CB6D4E288166 /* libPods-StrokeApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +288,14 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9090591234878EE008AFDAD /* DoubleConversion.framework */,
+				F909058F234878CA008AFDAD /* cxxreact.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				0296FA672454267DAA6267CF /* libPods-StrokeApp.a */,
-				44EF9B66A9DACA46756D7E0D /* libPods-StrokeApp-tvOS.a */,
-				915D9B71A6D1F214DAFA8D01 /* libPods-StrokeApp-tvOSTests.a */,
-				281BF44C08CB47AFD450E412 /* libPods-StrokeAppTests.a */,
+				A20BFF28C0E8C622EF85199F /* libPods-StrokeApp.a */,
+				FC3B1EE7EE4CA07F9BF7B199 /* libPods-StrokeApp-tvOS.a */,
+				C99AE5672329C6C0017B0721 /* libPods-StrokeApp-tvOSTests.a */,
+				2DBB2DE2C984034D04B76C9F /* libPods-StrokeAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,7 +310,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				F98F9156233D05F70079F89C /* StrokeApp-Bridging-Header.h */,
+				F909060B23487ADE008AFDAD /* StrokeApp-Bridging-Header.h */,
+				F9090594234879A1008AFDAD /* ReactNativeCharts */,
 				13B07FAE1A68108700A75B9A /* StrokeApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* StrokeAppTests */,
@@ -262,6 +375,149 @@
 				E21AFAA332AC42E1A3927E00 /* Zocial.ttf */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9090594234879A1008AFDAD /* ReactNativeCharts */ = {
+			isa = PBXGroup;
+			children = (
+				F9090595234879A1008AFDAD /* IndexValueFormatter.swift */,
+				F9090596234879A1008AFDAD /* combine */,
+				F909059B234879A1008AFDAD /* RNYAxisChartViewBase.swift */,
+				F909059C234879A1008AFDAD /* BalloonMarker.swift */,
+				F909059D234879A1008AFDAD /* RNBarLineChartViewBase.swift */,
+				F909059E234879A1008AFDAD /* formatters */,
+				F90905A1234879A1008AFDAD /* utils */,
+				F90905A7234879A1008AFDAD /* RNChartManagerBridge.h */,
+				F90905A8234879A1008AFDAD /* bubble */,
+				F90905AD234879A1008AFDAD /* CustomChartDateFormatter.swift */,
+				F90905AE234879A1008AFDAD /* RNBarLineChartBaseManager.swift */,
+				F90905AF234879A1008AFDAD /* RNYAxisChartManagerBridge.h */,
+				F90905B0234879A1008AFDAD /* pie */,
+				F90905B5234879A1008AFDAD /* scatter */,
+				F90905BA234879A1008AFDAD /* line */,
+				F90905BF234879A1008AFDAD /* candlestick */,
+				F90905C4234879A1008AFDAD /* RNBarLineChartManagerBridge.h */,
+				F90905C5234879A1008AFDAD /* RNCharts-Bridging-Header.h */,
+				F90905C6234879A1008AFDAD /* bar */,
+				F90905CF234879A1008AFDAD /* radar */,
+				F90905D4234879A1008AFDAD /* RNChartViewBase.swift */,
+				F90905D5234879A1008AFDAD /* ChartGroupHolder.swift */,
+				F90905D6234879A1008AFDAD /* DataExtract.swift */,
+			);
+			path = ReactNativeCharts;
+			sourceTree = "<group>";
+		};
+		F9090596234879A1008AFDAD /* combine */ = {
+			isa = PBXGroup;
+			children = (
+				F9090597234879A1008AFDAD /* RNCombinedChartView.swift */,
+				F9090598234879A1008AFDAD /* RNCombinedChartManager.swift */,
+				F9090599234879A1008AFDAD /* RNCombinedChartManagerBridge.m */,
+				F909059A234879A1008AFDAD /* CombinedDataExtract.swift */,
+			);
+			path = combine;
+			sourceTree = "<group>";
+		};
+		F909059E234879A1008AFDAD /* formatters */ = {
+			isa = PBXGroup;
+			children = (
+				F909059F234879A1008AFDAD /* ChartDateFormatter.swift */,
+				F90905A0234879A1008AFDAD /* LargeValueFormatter.swift */,
+			);
+			path = formatters;
+			sourceTree = "<group>";
+		};
+		F90905A1234879A1008AFDAD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F90905A2234879A1008AFDAD /* FontUtils.swift */,
+				F90905A3234879A1008AFDAD /* EntryToDictionaryUtils.swift */,
+				F90905A4234879A1008AFDAD /* ChartDataSetConfigUtils.swift */,
+				F90905A5234879A1008AFDAD /* HighlightUtils.swift */,
+				F90905A6234879A1008AFDAD /* BridgeUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		F90905A8234879A1008AFDAD /* bubble */ = {
+			isa = PBXGroup;
+			children = (
+				F90905A9234879A1008AFDAD /* RNBubbleChartManager.swift */,
+				F90905AA234879A1008AFDAD /* RNBubbleChartView.swift */,
+				F90905AB234879A1008AFDAD /* BubbleDataExtract.swift */,
+				F90905AC234879A1008AFDAD /* RNBubbleChartManagerBridge.m */,
+			);
+			path = bubble;
+			sourceTree = "<group>";
+		};
+		F90905B0234879A1008AFDAD /* pie */ = {
+			isa = PBXGroup;
+			children = (
+				F90905B1234879A1008AFDAD /* RNPieChartView.swift */,
+				F90905B2234879A1008AFDAD /* RNPieChartManagerBridge.m */,
+				F90905B3234879A1008AFDAD /* PieDataExtract.swift */,
+				F90905B4234879A1008AFDAD /* RNPieChartManager.swift */,
+			);
+			path = pie;
+			sourceTree = "<group>";
+		};
+		F90905B5234879A1008AFDAD /* scatter */ = {
+			isa = PBXGroup;
+			children = (
+				F90905B6234879A1008AFDAD /* RNScatterChartManager.swift */,
+				F90905B7234879A1008AFDAD /* RNScatterChartView.swift */,
+				F90905B8234879A1008AFDAD /* RNScatterChartManagerBridge.m */,
+				F90905B9234879A1008AFDAD /* ScatterDataExtract.swift */,
+			);
+			path = scatter;
+			sourceTree = "<group>";
+		};
+		F90905BA234879A1008AFDAD /* line */ = {
+			isa = PBXGroup;
+			children = (
+				F90905BB234879A1008AFDAD /* RNLineChartView.swift */,
+				F90905BC234879A1008AFDAD /* RNLineChartManager.swift */,
+				F90905BD234879A1008AFDAD /* RNLineChartManagerBridge.m */,
+				F90905BE234879A1008AFDAD /* LineDataExtract.swift */,
+			);
+			path = line;
+			sourceTree = "<group>";
+		};
+		F90905BF234879A1008AFDAD /* candlestick */ = {
+			isa = PBXGroup;
+			children = (
+				F90905C0234879A1008AFDAD /* CandleDataExtract.swift */,
+				F90905C1234879A1008AFDAD /* RNCandleStickChartView.swift */,
+				F90905C2234879A1008AFDAD /* RNCandleStickChartManager.swift */,
+				F90905C3234879A1008AFDAD /* RNCandleStickChartManagerBridge.m */,
+			);
+			path = candlestick;
+			sourceTree = "<group>";
+		};
+		F90905C6234879A1008AFDAD /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				F90905C7234879A1008AFDAD /* RNBarChartViewBase.swift */,
+				F90905C8234879A1008AFDAD /* BarDataExtract.swift */,
+				F90905C9234879A1008AFDAD /* RNHorizontalBarChartManager.swift */,
+				F90905CA234879A1008AFDAD /* RNBarChartManager.swift */,
+				F90905CB234879A1008AFDAD /* RNBarChartManagerBridge.m */,
+				F90905CC234879A1008AFDAD /* RNBarChartView.swift */,
+				F90905CD234879A1008AFDAD /* RNHorizontalBarChartView.swift */,
+				F90905CE234879A1008AFDAD /* RNHorizontalBarChartManagerBridge.m */,
+			);
+			path = bar;
+			sourceTree = "<group>";
+		};
+		F90905CF234879A1008AFDAD /* radar */ = {
+			isa = PBXGroup;
+			children = (
+				F90905D0234879A1008AFDAD /* RadarDataExtract.swift */,
+				F90905D1234879A1008AFDAD /* RNRadarChartManagerBridge.m */,
+				F90905D2234879A1008AFDAD /* RNRadarChartView.swift */,
+				F90905D3234879A1008AFDAD /* RNRadarChartManager.swift */,
+			);
+			path = radar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -621,8 +877,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9090609234879A1008AFDAD /* ChartGroupHolder.swift in Sources */,
+				F9090604234879A1008AFDAD /* RadarDataExtract.swift in Sources */,
+				F90905EA234879A1008AFDAD /* CustomChartDateFormatter.swift in Sources */,
+				F90905DF234879A1008AFDAD /* ChartDateFormatter.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				F90905E1234879A1008AFDAD /* FontUtils.swift in Sources */,
+				F9090601234879A1008AFDAD /* RNBarChartView.swift in Sources */,
+				F90905E7234879A1008AFDAD /* RNBubbleChartView.swift in Sources */,
+				F90905F4234879A1008AFDAD /* RNLineChartView.swift in Sources */,
+				F90905F3234879A1008AFDAD /* ScatterDataExtract.swift in Sources */,
+				F9090600234879A1008AFDAD /* RNBarChartManagerBridge.m in Sources */,
+				F90905FF234879A1008AFDAD /* RNBarChartManager.swift in Sources */,
+				F90905E9234879A1008AFDAD /* RNBubbleChartManagerBridge.m in Sources */,
+				F90905EE234879A1008AFDAD /* PieDataExtract.swift in Sources */,
+				F90905EB234879A1008AFDAD /* RNBarLineChartBaseManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				F90905F6234879A1008AFDAD /* RNLineChartManagerBridge.m in Sources */,
+				F90905D8234879A1008AFDAD /* RNCombinedChartView.swift in Sources */,
+				F9090607234879A1008AFDAD /* RNRadarChartManager.swift in Sources */,
+				F9090603234879A1008AFDAD /* RNHorizontalBarChartManagerBridge.m in Sources */,
+				F90905F5234879A1008AFDAD /* RNLineChartManager.swift in Sources */,
+				F90905E0234879A1008AFDAD /* LargeValueFormatter.swift in Sources */,
+				F90905EC234879A1008AFDAD /* RNPieChartView.swift in Sources */,
+				F9090602234879A1008AFDAD /* RNHorizontalBarChartView.swift in Sources */,
+				F9090606234879A1008AFDAD /* RNRadarChartView.swift in Sources */,
+				F90905E8234879A1008AFDAD /* BubbleDataExtract.swift in Sources */,
+				F90905DD234879A1008AFDAD /* BalloonMarker.swift in Sources */,
+				F90905F8234879A1008AFDAD /* CandleDataExtract.swift in Sources */,
+				F90905F1234879A1008AFDAD /* RNScatterChartView.swift in Sources */,
+				F90905F9234879A1008AFDAD /* RNCandleStickChartView.swift in Sources */,
+				F90905ED234879A1008AFDAD /* RNPieChartManagerBridge.m in Sources */,
+				F90905DC234879A1008AFDAD /* RNYAxisChartViewBase.swift in Sources */,
+				F90905E4234879A1008AFDAD /* HighlightUtils.swift in Sources */,
+				F9090608234879A1008AFDAD /* RNChartViewBase.swift in Sources */,
+				F90905FD234879A1008AFDAD /* BarDataExtract.swift in Sources */,
+				F90905D9234879A1008AFDAD /* RNCombinedChartManager.swift in Sources */,
+				F90905E5234879A1008AFDAD /* BridgeUtils.swift in Sources */,
+				F90905E2234879A1008AFDAD /* EntryToDictionaryUtils.swift in Sources */,
+				F90905FE234879A1008AFDAD /* RNHorizontalBarChartManager.swift in Sources */,
+				F90905EF234879A1008AFDAD /* RNPieChartManager.swift in Sources */,
+				F90905F2234879A1008AFDAD /* RNScatterChartManagerBridge.m in Sources */,
+				F90905FB234879A1008AFDAD /* RNCandleStickChartManagerBridge.m in Sources */,
+				F90905F7234879A1008AFDAD /* LineDataExtract.swift in Sources */,
+				F90905F0234879A1008AFDAD /* RNScatterChartManager.swift in Sources */,
+				F90905FC234879A1008AFDAD /* RNBarChartViewBase.swift in Sources */,
+				F90905DB234879A1008AFDAD /* CombinedDataExtract.swift in Sources */,
+				F90905FA234879A1008AFDAD /* RNCandleStickChartManager.swift in Sources */,
+				F909060A234879A1008AFDAD /* DataExtract.swift in Sources */,
+				F90905DA234879A1008AFDAD /* RNCombinedChartManagerBridge.m in Sources */,
+				F90905DE234879A1008AFDAD /* RNBarLineChartViewBase.swift in Sources */,
+				F90905E3234879A1008AFDAD /* ChartDataSetConfigUtils.swift in Sources */,
+				F90905E6234879A1008AFDAD /* RNBubbleChartManager.swift in Sources */,
+				F90905D7234879A1008AFDAD /* IndexValueFormatter.swift in Sources */,
+				F9090605234879A1008AFDAD /* RNRadarChartManagerBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +983,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B508B7127722730D3DD11019 /* Pods-StrokeAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 94N6P42P52;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -700,6 +1009,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C2E2DD65A22194E3B71D4E2 /* Pods-StrokeAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 94N6P42P52;
@@ -761,7 +1071,7 @@
 				PRODUCT_NAME = StrokeApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "StrokeApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -808,7 +1118,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = StrokeApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "StrokeApp-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};

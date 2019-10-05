@@ -551,7 +551,7 @@ export default class Routers extends Component {
             navBarButtonColor="white"
             title="體重"
           />
-          {/* <Scene
+          <Scene
             panHandlers={null}
             key="sugerhh"
             component={Sugerh}
@@ -578,7 +578,7 @@ export default class Routers extends Component {
             component={Weighth}
             navBarButtonColor="white"
             title="歷史紀錄"
-          /> */}
+          />
           <Scene
             panHandlers={null}
             key="qrcodee"

@@ -40,6 +40,9 @@ target 'StrokeApp' do
 
   pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
 
+   pod 'SwiftyJSON', '5.0'      
+   pod 'Charts', '3.3.0'   
+
   target 'StrokeAppTests' do
     inherit! :search_paths
     # Pods for testing
