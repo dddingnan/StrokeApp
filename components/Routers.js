@@ -119,7 +119,7 @@ export default class Routers extends Component {
             panHandlers={null}
             key="loginn"
             component={Login}
-            // initial
+            initial
             hideNavBar="true"
           />
           <Scene
@@ -506,7 +506,6 @@ export default class Routers extends Component {
             panHandlers={null}
             key="caree"
             component={Care}
-            initial
             title="照護小幫手"
             navBarButtonColor="white"
           />

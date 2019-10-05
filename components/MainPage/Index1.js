@@ -54,20 +54,14 @@ export default class Index1 extends Component {
         if (aspectRatio > 1.6) {
           return (
             <Image
-              style={{
-                width,
-                height: verticalScale(145),
-              }}
+              style={styles.img2}
               source={require('../../images/note.png')}
             />
           );
         } else {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width,
-                height: Dimensions.get('window').height / 2.8,
-              }}
+            style={styles.img2}
               source={require('../../images/note.png')}
             />
           );
@@ -75,10 +69,7 @@ export default class Index1 extends Component {
       } else {
         return (
           <Image
-            style={{
-              width: Dimensions.get('window').width,
-              height: Dimensions.get('window').height / 3.65,
-            }}
+            style={styles.img2}
             source={require('../../images/note.png')}
           />
         );
@@ -225,5 +216,9 @@ const styles = StyleSheet.create({
     marginLeft: Dimensions.get('window').height * 0.015,
     width: Dimensions.get('window').width * 0.09,
     height: Dimensions.get('window').width * 0.09,
+  },
+  img2: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').width * 0.47,
   },
 });

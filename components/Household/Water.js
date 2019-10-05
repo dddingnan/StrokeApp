@@ -378,8 +378,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   photo: {
-    width: Dimensions.get('window').width / 4,
-    height: Dimensions.get('window').height / 6,
+    width: Dimensions.get('window').width * 0.2,
+    height: Dimensions.get('window').width * 0.29,
   },
   text2: {
     fontSize: Dimensions.get('window').width * 0.08,

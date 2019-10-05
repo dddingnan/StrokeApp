@@ -65,6 +65,11 @@ export default class LOGIN extends Component {
     Actions.homee();
   }
 
+  goCare() {
+    AsyncStorage.setItem('id', this.state.id);
+    Actions.caree();
+  }
+
   render() {
     const dimensions = Dimensions.get('window');
     const imageHeight = Math.round((dimensions.width * 10) / 15);
@@ -119,8 +124,21 @@ export default class LOGIN extends Component {
               alignItems: 'center',
               justifyContent: 'center',
             }}>
-            <TouchableOpacity onPress={() => this.gos()} style={styles.Button}>
+            <TouchableOpacity onPress={() => this.go()} style={styles.Button}>
               <Text style={styles.confirm}>確認 / Enter</Text>
+            </TouchableOpacity>
+          </View>
+
+          <View
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}>
+            <TouchableOpacity
+              onPress={() => this.goCare()}
+              style={styles.Button}>
+              <Text style={styles.confirm}>前往照護小幫手</Text>
             </TouchableOpacity>
           </View>
 

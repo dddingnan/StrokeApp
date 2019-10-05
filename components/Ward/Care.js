@@ -1089,9 +1089,7 @@ export default class Care extends Component {
 
     return(
       <View>
-      <Image style = {{
-        width: Dimensions.get('window').width/2,
-        height: Dimensions.get('window').height/3.8/2,}}
+      <Image style = {styles.imgLeft}
       source = {require('../../images/t1.png')}/>
       </View>
 
@@ -1106,9 +1104,7 @@ export default class Care extends Component {
 
       return(
         <View>
-        <Image style = {{
-          width: Dimensions.get('window').width/2,
-          height: Dimensions.get('window').height/3.8/2,}}
+        <Image style = {styles.imgLeft}
         source = {require('../../images/s1.png')}/>
         </View>
 
@@ -4269,8 +4265,12 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height/3.82,
   },
   img2:{
-    width: Dimensions.get('window').width/2,
-    height: Dimensions.get('window').height/3.75,
+    width: Dimensions.get('window').width * 0.5,
+    height: Dimensions.get('window').width * 0.47,
+  },
+  imgLeft: {
+    width: Dimensions.get('window').width * 0.5,
+    height: Dimensions.get('window').width * 0.47 / 2,
   },
   img3:{
     width: Dimensions.get('window').width/2.7,

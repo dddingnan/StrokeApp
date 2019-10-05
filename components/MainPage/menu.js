@@ -93,7 +93,7 @@ export default class Menu extends Component {
                 />
               </View>
 
-              <TouchableOpacity onPress={() => Actions.notii()}>
+              <TouchableOpacity onPress={() => Alert.alert('敬請期待')}>
                 <Text
                   style={{
                     color: 'black',
@@ -129,7 +129,7 @@ export default class Menu extends Component {
                 />
               </View>
 
-              <TouchableOpacity onPress={() => Actions.settingg()}>
+              <TouchableOpacity onPress={() => Alert.alert('敬請期待')}>
                 <Text
                   style={{
                     color: 'black',
@@ -201,7 +201,7 @@ export default class Menu extends Component {
                 />
               </View>
 
-              <TouchableOpacity onPress={() => Actions.homee()}>
+              <TouchableOpacity onPress={() => Alert.alert('您已在此頁')}>
                 <Text
                   style={{
                     color: 'black',

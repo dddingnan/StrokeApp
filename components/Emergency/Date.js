@@ -581,10 +581,7 @@ export default class Dates extends Component {
               flexDirection: 'row',
             }}>
             <Image
-              style={{
-                width: 75,
-                height: 110,
-              }}
+              style={styles.photo}
               source={require('../../images/orangeOwl.png')}
             />
             <View
@@ -840,5 +837,9 @@ const styles = StyleSheet.create({
     fontSize: Dimensions.get('window').width * 0.08,
     color: '#fff',
     fontWeight: 'bold',
+  },
+  photo: {
+    width: Dimensions.get('window').width * 0.2,
+    height: Dimensions.get('window').width * 0.29,
   },
 });

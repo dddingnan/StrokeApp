@@ -53,20 +53,14 @@ export default class Index2 extends Component {
           if (aspectRatio > 1.6) {
             return (
               <Image
-                style={{
-                  width: Dimensions.get('window').width,
-                  height: Dimensions.get('window').height / 3.63,
-                }}
+                style={styles.img2}
                 source={require('../../images/ward.png')}
               />
             );
           } else {
             return (
               <Image
-                style={{
-                  width: Dimensions.get('window').width,
-                  height: Dimensions.get('window').height / 2.8,
-                }}
+                style={styles.img2}
                 source={require('../../images/ward.png')}
               />
             );
@@ -74,10 +68,7 @@ export default class Index2 extends Component {
         } else {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width,
-                height: Dimensions.get('window').height / 3.63,
-              }}
+              style={styles.img2}
               source={require('../../images/ward.png')}
             />
           );
@@ -107,20 +98,14 @@ export default class Index2 extends Component {
         if (aspectRatio > 1.6) {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width,
-                height: Dimensions.get('window').height / 3.63,
-              }}
+              style={styles.img2}
               source={require('../../images/notify.png')}
             />
           );
         } else {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width,
-                height: Dimensions.get('window').height / 2.8,
-              }}
+              style={styles.img2}
               source={require('../../images/notify.png')}
             />
           );
@@ -128,10 +113,7 @@ export default class Index2 extends Component {
       } else {
         return (
           <Image
-            style={{
-              width: Dimensions.get('window').width,
-              height: Dimensions.get('window').height / 3.63,
-            }}
+            style={styles.img2}
             source={require('../../images/notify.png')}
           />
         );
@@ -289,5 +271,9 @@ const styles = StyleSheet.create({
     marginLeft: Dimensions.get('window').height * 0.015,
     width: Dimensions.get('window').width * 0.09,
     height: Dimensions.get('window').width * 0.09,
+  },
+  img2: {
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').width * 0.47,
   },
 });

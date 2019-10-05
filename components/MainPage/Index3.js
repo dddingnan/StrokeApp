@@ -58,20 +58,14 @@ export default class Index3 extends Component {
               if (aspectRatio > 1.6) {
                 return (
                   <Image
-                    style={{
-                      width: Dimensions.get('window').width / 2,
-                      height: Dimensions.get('window').height / 3.63,
-                    }}
+                    style={styles.img2}
                     source={require('../../images/med.png')}
                   />
                 );
               } else {
                 return (
                   <Image
-                    style={{
-                      width: Dimensions.get('window').width / 2,
-                      height: Dimensions.get('window').height / 2.8,
-                    }}
+                  style={styles.img2}
                     source={require('../../images/med.png')}
                   />
                 );
@@ -79,10 +73,7 @@ export default class Index3 extends Component {
             } else {
               return (
                 <Image
-                  style={{
-                    width: Dimensions.get('window').width / 2,
-                    height: Dimensions.get('window').height / 3.63,
-                  }}
+                style={styles.img2}
                   source={require('../../images/med.png')}
                 />
               );
@@ -120,20 +111,14 @@ export default class Index3 extends Component {
             if (aspectRatio > 1.6) {
               return (
                 <Image
-                  style={{
-                    width: Dimensions.get('window').width / 2,
-                    height: Dimensions.get('window').height / 3.63,
-                  }}
+                style={styles.img2}
                   source={require('../../images/care.png')}
                 />
               );
             } else {
               return (
                 <Image
-                  style={{
-                    width: Dimensions.get('window').width / 2,
-                    height: Dimensions.get('window').height / 2.8,
-                  }}
+                style={styles.img2}
                   source={require('../../images/care.png')}
                 />
               );
@@ -141,10 +126,7 @@ export default class Index3 extends Component {
           } else {
             return (
               <Image
-                style={{
-                  width: Dimensions.get('window').width / 2,
-                  height: Dimensions.get('window').height / 3.63,
-                }}
+              style={styles.img2}
                 source={require('../../images/care.png')}
               />
             );
@@ -178,20 +160,14 @@ export default class Index3 extends Component {
           if (aspectRatio > 1.6) {
             return (
               <Image
-                style={{
-                  width: Dimensions.get('window').width / 2,
-                  height: Dimensions.get('window').height / 3.63,
-                }}
+              style={styles.img2}
                 source={require('../../images/reco.png')}
               />
             );
           } else {
             return (
               <Image
-                style={{
-                  width: Dimensions.get('window').width / 2,
-                  height: Dimensions.get('window').height / 2.8,
-                }}
+              style={styles.img2}
                 source={require('../../images/reco.png')}
               />
             );
@@ -199,10 +175,7 @@ export default class Index3 extends Component {
         } else {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width / 2,
-                height: Dimensions.get('window').height / 3.63,
-              }}
+            style={styles.img2}
               source={require('../../images/reco.png')}
             />
           );
@@ -232,20 +205,14 @@ export default class Index3 extends Component {
         if (aspectRatio > 1.6) {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width / 2,
-                height: Dimensions.get('window').height / 3.63,
-              }}
+            style={styles.img2}
               source={require('../../images/tech.png')}
             />
           );
         } else {
           return (
             <Image
-              style={{
-                width: Dimensions.get('window').width / 2,
-                height: Dimensions.get('window').height / 2.8,
-              }}
+            style={styles.img2}
               source={require('../../images/tech.png')}
             />
           );
@@ -253,10 +220,7 @@ export default class Index3 extends Component {
       } else {
         return (
           <Image
-            style={{
-              width: Dimensions.get('window').width / 2,
-              height: Dimensions.get('window').height / 3.63,
-            }}
+          style={styles.img2}
             source={require('../../images/tech.png')}
           />
         );
@@ -471,7 +435,7 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height / 3.63,
   },
   img2: {
-    width: Dimensions.get('window').width / 2,
-    height: Dimensions.get('window').height / 3.63,
+    width: Dimensions.get('window').width * 0.5,
+    height: Dimensions.get('window').width * 0.47,
   },
 });

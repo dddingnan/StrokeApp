@@ -192,7 +192,7 @@ export default class Index5 extends Component {
       if (this.state.h4 == 0) {
         return (
           <Image
-            style={styles.img1}
+            style={styles.img2}
             source={require('../../images/records.png')}
           />
         );
@@ -216,7 +216,7 @@ export default class Index5 extends Component {
     if (this.state.h5 == 0) {
       return (
         <Image
-          style={styles.img1}
+          style={styles.img2}
           source={require('../../images/calendar.png')}
         />
       );
@@ -247,15 +247,7 @@ export default class Index5 extends Component {
         onClose={() => this.closeDrawer()}>
         <Container>
           <View style={styles.container}>
-            <View
-              style={{
-                flexDirection: 'row',
-                backgroundColor: 'rgb(156,200,26)',
-                height: Dimensions.get('window').height / 8,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
+            <View style={styles.up}>
               <Button
                 transparent
                 onPress={() => this.openDrawer()}
@@ -297,7 +289,7 @@ export default class Index5 extends Component {
               </View>
             </View>
 
-            <View style={styles.container}>
+            <View style={styles.container2}>
               <View style={{flexDirection: 'row'}}>
                 <TouchableHighlight
                   underlayColor="white"
@@ -420,13 +412,26 @@ const styles = StyleSheet.create({
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height,
   },
+  container2: {
+    width: '100%',
+    height: '87.5%',
+  },
+  up: {
+    flexDirection: 'row',
+    backgroundColor: 'rgb(156,200,26)',
+    width: '100%',
+    height: '12.5%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   img1: {
     width: Dimensions.get('window').width / 2,
     height: Dimensions.get('window').height / 3.63,
   },
   img2: {
-    width: Dimensions.get('window').width / 2,
-    height: Dimensions.get('window').height / 4,
+    width: Dimensions.get('window').width * 0.5,
+    height: Dimensions.get('window').width * 0.47,
   },
   img: {
     marginLeft: Dimensions.get('window').height * 0.015,

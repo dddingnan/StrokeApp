@@ -144,14 +144,6 @@ export default class Records extends Component {
           </TouchableHighlight>
         </View>
 
-        <View style={{ display: 'flex', flexDirection: 'row'}}>
-          <View style={styles.triangleCornerBottomLeft} />
-          <View style={styles.triangleCornerHellowLeft} />
-          <View style={styles.triangleCornerHellowRight} />
-        </View>
-
-
-
         <View
           style={{
             alignItems: 'center',
@@ -180,8 +172,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   img: {
-    width: Dimensions.get('window').width / 2,
-    height: Dimensions.get('window').height * 0.25,
+    width: Dimensions.get('window').width * 0.5,
+    height: Dimensions.get('window').width * 0.5,
   },
   Button: {
     borderRightWidth: 0.4,
@@ -199,45 +191,5 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height * 0.05,
     width: Dimensions.get('window').height * 0.3,
     marginTop: Dimensions.get('window').height * 0.1,
-  },
-  triangleCornerBottomLeft: {
-    width: 0,
-    height: 0,
-    backgroundColor: '#80941d',
-    borderStyle: 'solid',
-    borderRightWidth: 100,
-    borderTopWidth: 100,
-    borderRightColor: 'transparent',
-    borderTopColor: '#80941d',
-    transform: [{rotate: '270deg'}],
-    margin: 2,
-  },
-  triangleCornerHellowLeft: {
-    width: 0,
-    height: 0,
-    backgroundColor: 'transparent',
-    borderStyle: 'solid',
-    borderRightWidth: 90,
-    borderTopWidth: 90,
-    borderRightColor: 'transparent',
-    borderTopColor: 'white',
-    transform: [{rotate: '270deg'}],
-    position: 'absolute',
-    bottom: 5,
-    left: 5,
-  },
-  triangleCornerHellowRight: {
-    width: 0,
-    height: 0,
-    backgroundColor: 'transparent',
-    borderStyle: 'solid',
-    borderRightWidth: 90,
-    borderTopWidth: 90,
-    borderRightColor: 'transparent',
-    borderTopColor: 'white',
-    transform: [{rotate: '90deg'}],
-    position: 'absolute',
-    bottom: 8,
-    left: 8,
   },
 });

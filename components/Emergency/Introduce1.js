@@ -303,7 +303,7 @@ const styles = StyleSheet.create({
     right: 0,
   },
   owlImg: {
-    width: Dimensions.get('window').width * 0.3,
-    height: Dimensions.get('window').height* 0.2,
+    width: Dimensions.get('window').width * 0.32,
+    height: Dimensions.get('window').width * 0.45,
   },
 });
