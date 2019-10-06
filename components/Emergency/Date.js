@@ -371,10 +371,10 @@ export default class Dates extends Component {
         <Modal isVisible={this.state.ViewVisible}>
           <View
             style={{
-              margin: 10,
-              borderRadius: 20,
-              height: Dimensions.get('window').height / 1.1,
-              width: Dimensions.get('window').width / 1.2,
+              borderRadius: 5,
+              height:Dimensions.get('window').width * 1.3,
+              alignItems: 'center',
+              justifyContent: 'center',
             }}>
             <View
               style={{
@@ -382,13 +382,13 @@ export default class Dates extends Component {
                 alignItems: 'center',
                 justifyContent: 'center',
                 borderRadius: 20,
-                height: Dimensions.get('window').height / 1.3,
+                height: '100%',
               }}>
               <Text
                 style={{
                   fontSize: Dimensions.get('window').width * 0.05,
                   color: 'white',
-                  marginTop: Dimensions.get('window').height * 0.02,
+                  marginTop: Dimensions.get('window').width * 0.02,
                 }}>
                 本app主要是幫助您認識腦中風，並引導您在急診到住院的檢查處置與需要配合之注意事項。腦中風是與時間賽跑的重症，需要清楚掌握症狀，血栓溶解劑為目前唯一被認為治療急性缺血性中風有效的藥物，靜脈注射打通阻塞的血管，但因僅限於一開始最早出現的症狀3
                 小時內使用，所以稱黃金三小時，由於本藥物若不當使用，容易造成腦出血或其他身體部位的出血進而威脅生命，故需要依藥物之使用規範，由醫師判讀是否可使用此藥以達安全。過了可以採用靜脈注射溶栓藥物，中風發生六小時內可以經由評估是否符合介入性動脈機械取栓，利用導管將血栓抽掉，打通阻塞的血管。若您中風症狀發生在3小時以內者，會以最快的流程做確定診斷，以下步驟需要您依序完成，評估您是否符合血栓溶解劑藥物之使用標準請您用自我評估方式幫助醫師對病史的了解，依自評結果提供專屬您的衛教指導，接下來請您依照下面步驟完成自我評估
@@ -772,12 +772,12 @@ const styles = StyleSheet.create({
     height: Dimensions.get('window').height / 2,
   },
   modeButton: {
-    marginBottom: Dimensions.get('window').height * 0.03,
-    marginTop: Dimensions.get('window').height * 0.03,
+    marginBottom: Dimensions.get('window').width * 0.03,
+    marginTop: Dimensions.get('window').width * 0.03,
     backgroundColor: 'rgb(156,200,26)',
-    borderRadius: 20,
+    borderRadius: 5,
     width: Dimensions.get('window').width / 5,
-    height: Dimensions.get('window').height / 12,
+    height: Dimensions.get('window').width / 8,
     alignItems: 'center',
     justifyContent: 'center',
   },

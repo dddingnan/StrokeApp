@@ -201,7 +201,7 @@ export default class Menu extends Component {
                 />
               </View>
 
-              <TouchableOpacity onPress={() => Alert.alert('您已在此頁')}>
+              <TouchableOpacity onPress={() => Actions.homee()}>
                 <Text
                   style={{
                     color: 'black',

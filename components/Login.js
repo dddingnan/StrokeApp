@@ -238,8 +238,8 @@ const styles = StyleSheet.create({
     width: Dimensions.get('window').width,
   },
   img2: {
-    height: Dimensions.get('window').height * 0.05,
-    width: Dimensions.get('window').height * 0.3,
+    height: Dimensions.get('window').width * 0.085,
+    width: Dimensions.get('window').width * 0.53,
     marginTop: Dimensions.get('window').height * 0.1,
   },
 });
