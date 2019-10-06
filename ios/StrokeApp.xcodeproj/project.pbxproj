@@ -12,14 +12,11 @@
 		0284A94B3F4F4E5494A88EAF /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0017964B1FF4D368F141BD8 /* Ionicons.ttf */; };
 		0962063DCACE4B0AAC6EDBD0 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9CB30AB18D54C259B392600 /* FontAwesome5_Brands.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		154F60C5985D4DC8BA15A7D3 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86231BDCC82148918AAFFC19 /* Foundation.ttf */; };
 		17E8537E27D9433FA74E75E0 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448405F0A0554F79B0AFDACC /* SimpleLineIcons.ttf */; };
 		1AA3F3F9BDE44610807685B7 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAB04234DDC0434E999BE4BD /* Octicons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* StrokeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StrokeAppTests.m */; };
 		44B1DBF3DE884596968200E0 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51ACE39F460547248B978DF4 /* EvilIcons.ttf */; };
@@ -91,6 +88,8 @@
 		F9090608234879A1008AFDAD /* RNChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D4234879A1008AFDAD /* RNChartViewBase.swift */; };
 		F9090609234879A1008AFDAD /* ChartGroupHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D5234879A1008AFDAD /* ChartGroupHolder.swift */; };
 		F909060A234879A1008AFDAD /* DataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90905D6234879A1008AFDAD /* DataExtract.swift */; };
+		F9F024492349E34B00E08E18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F024482349E34B00E08E18 /* Images.xcassets */; };
+		F9F0244A2349E3B300E08E18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,7 +118,6 @@
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StrokeApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = StrokeApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StrokeApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StrokeApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StrokeApp/main.m; sourceTree = "<group>"; };
 		1C2E2DD65A22194E3B71D4E2 /* Pods-StrokeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrokeAppTests.release.xcconfig"; path = "Target Support Files/Pods-StrokeAppTests/Pods-StrokeAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -215,6 +213,7 @@
 		F90905D5234879A1008AFDAD /* ChartGroupHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGroupHolder.swift; sourceTree = "<group>"; };
 		F90905D6234879A1008AFDAD /* DataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtract.swift; sourceTree = "<group>"; };
 		F909060B23487ADE008AFDAD /* StrokeApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StrokeApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9F024482349E34B00E08E18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC3B1EE7EE4CA07F9BF7B199 /* libPods-StrokeApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StrokeApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -274,10 +273,10 @@
 		13B07FAE1A68108700A75B9A /* StrokeApp */ = {
 			isa = PBXGroup;
 			children = (
+				F9F024482349E34B00E08E18 /* Images.xcassets */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -666,8 +665,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				F9F0244A2349E3B300E08E18 /* LaunchScreen.xib in Resources */,
 				ECA87D2C728F49C197C365BD /* AntDesign.ttf in Resources */,
 				524469369D4D462B844F1B45 /* Entypo.ttf in Resources */,
 				44B1DBF3DE884596968200E0 /* EvilIcons.ttf in Resources */,
@@ -681,6 +679,7 @@
 				0284A94B3F4F4E5494A88EAF /* Ionicons.ttf in Resources */,
 				C3E553EF342042868F632608 /* MaterialCommunityIcons.ttf in Resources */,
 				001762E9814D483C9B774CD8 /* MaterialIcons.ttf in Resources */,
+				F9F024492349E34B00E08E18 /* Images.xcassets in Resources */,
 				1AA3F3F9BDE44610807685B7 /* Octicons.ttf in Resources */,
 				9D98D9AC3B2B4C08ACC754EB /* Roboto_medium.ttf in Resources */,
 				4737FD3670E14B58B6896340 /* Roboto.ttf in Resources */,
@@ -694,7 +693,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
