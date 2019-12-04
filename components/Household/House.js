@@ -44,7 +44,7 @@ export default class House extends Component {
           onLoad={() => this.hideSpinner()}
           style={{flex: 1}}
           source={{
-            uri: 'http://ltcgis.mohw.gov.tw/Select/QueryResource.aspx',
+            uri: 'https://ltcpap.mohw.gov.tw/public/index.html',
           }}
         />
       </View>

@@ -37,7 +37,7 @@ export default class Walk extends Component {
   };
 
   componentWillMount() {
-    this.setState({Visible: true});
+    // this.setState({Visible: true});
   }
 
   open() {
@@ -173,8 +173,7 @@ export default class Walk extends Component {
           <WebView
             onLoad={() => this.hideSpinner()}
             source={{
-              uri:
-                'https://repat.sfaa.gov.tw/mobile/03_a_list2.asp?country_in_cate=%A5x%A5_%A5%AB',
+              uri: 'https://1966.gov.tw/LTC/mp-201.html',
             }}
           />
           {this.state.visible && (
@@ -196,8 +195,29 @@ export default class Walk extends Component {
           <WebView
             onLoad={() => this.hideSpinner()}
             source={{
-              uri:
-                'https://repat.sfaa.gov.tw/mobile/03_a_list2.asp?keyword=%AE%E7%B6%E9&Submit=%ACd%B8%DF',
+              uri: 'https://1966.gov.tw/LTC/mp-201.html',
+            }}
+          />
+          {this.state.visible && (
+            <ActivityIndicator
+              style={{
+                position: 'absolute',
+                top: Dimensions.get('window').height * 0.1,
+                left: Dimensions.get('window').height * 0.25,
+              }}
+              size="large"
+              color="black"
+            />
+          )}
+        </View>
+      );
+    } else {
+      return (
+        <View style={styles.container}>
+          <WebView
+            onLoad={() => this.hideSpinner()}
+            source={{
+              uri: 'https://1966.gov.tw/LTC/mp-201.html',
             }}
           />
           {this.state.visible && (
@@ -1086,7 +1106,7 @@ export default class Walk extends Component {
           </Modal>
         </Modal>
 
-        <View
+        {/* <View
           style={{
             alignItems: 'flex-end',
           }}>
@@ -1112,7 +1132,7 @@ export default class Walk extends Component {
               設定
             </Text>
           </TouchableOpacity>
-        </View>
+        </View> */}
 
         {this.content()}
       </View>

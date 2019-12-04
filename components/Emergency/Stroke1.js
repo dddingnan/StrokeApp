@@ -26,7 +26,6 @@ import getTheme from '../themes/components';
 export default class Stroke1 extends Component {
   confirm() {
     var state = this.props.passstate;
-    Alert.alert('Stroke1', state);
     if (state == 0) {
       Actions.selff();
     } else if (state == 1) {

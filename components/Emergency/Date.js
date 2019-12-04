@@ -354,7 +354,7 @@ export default class Dates extends Component {
               </Text>
             </Body>
             <Right style={{flex: 1}}>
-              <TouchableOpacity onPress={() => this.gonext()}>
+              {/* <TouchableOpacity onPress={() => this.gonext()}>
                 <Text
                   style={{
                     fontSize: Dimensions.get('window').width * 0.045,
@@ -363,7 +363,7 @@ export default class Dates extends Component {
                   }}>
                   下一頁
                 </Text>
-              </TouchableOpacity>
+              </TouchableOpacity> */}
             </Right>
           </Header>
         </StyleProvider>
@@ -372,7 +372,7 @@ export default class Dates extends Component {
           <View
             style={{
               borderRadius: 5,
-              height:Dimensions.get('window').width * 1.3,
+              height: Dimensions.get('window').width * 1.3,
               alignItems: 'center',
               justifyContent: 'center',
             }}>
@@ -696,9 +696,11 @@ export default class Dates extends Component {
                   <Text style={styles.bottomtext}>關閉</Text>
                 </View>
 
-                <View style={styles.bottomContent2}>
+                <TouchableOpacity
+                  style={styles.bottomContent2}
+                  onPress={() => this.gonext()}>
                   <Text style={styles.bottomtext}>儲存</Text>
-                </View>
+                </TouchableOpacity>
               </View>
             </View>
           </View>

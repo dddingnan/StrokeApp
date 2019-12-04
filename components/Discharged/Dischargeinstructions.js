@@ -8,12 +8,10 @@ import {
   Dimensions,
   TouchableOpacity,
 } from 'react-native';
-import {Actions} from 'react-native-router-flux';
-import {Icon} from 'native-base';
-
+import A1 from '../Ward/A1';
 export default class Dischargeinstructions extends Component {
   render() {
-    return <View style={styles.container} />;
+    return <A1 />;
   }
 }
 
