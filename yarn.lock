@@ -841,6 +841,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.6.1.tgz#19be07fc1d65c77bdeb20f46108ba12076aad1c5"
   integrity sha512-1WA28xfdhG+unkTEk/lXnqI2izv6belo0CYw7UdvaeHm8TIYT6eTmIIdGR7oiCa2xSKEnaPQqRMH6h7gyLNbww==
 
+"@react-native-community/async-storage@^1.6.2":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.8.1.tgz#c93e69dcf948667b207e409b8039b7edf199159b"
+  integrity sha512-MA1fTp4SB7OOtDmNAwds6jIpiwwty1NIoFboWjEWkoyWW35zIuxlhHxD4joSy21aWEzUVwvv6JJ2hSsP/HTb7A==
+
 "@react-native-community/cli-platform-android@^2.6.0", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-2.9.0.tgz#28831e61ce565a2c7d1905852fce1eecfd33cb5e"
@@ -1832,7 +1837,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.19.0, commander@~2.20.0:
+commander@^2.19.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -1841,6 +1846,11 @@ commander@~2.13.0:
   version "2.13.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.13.0.tgz#6964bca67685df7c1f1430c584f07d7597885b9c"
   integrity sha512-MVuS359B+YzaWqjCL/c+22gfryv+mCBPHAv3zyVI2GN8EY6IRP8VwtasXn8jyyhvvq84R4ImN1OKRtcbIasjYA==
+
+commander@~2.20.3:
+  version "2.20.3"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -2960,9 +2970,9 @@ gud@^1.0.0:
   integrity sha512-zGEOVKFM5sVPPrYs7J5/hYEw2Pof8KCyOwyhG8sAF26mCAeUFAcYPu1mwB7hhpIP29zOIBaDqwuHdLp0jvZXjw==
 
 handlebars@^4.1.2:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.2.1.tgz#dc69c0e61604224f0c23b38b5b6741db210b57da"
-  integrity sha512-bqPIlDk06UWbVEIFoYj+LVo42WhK96J+b25l7hbFDpxrOXMphFM3fNIm+cluwg4Pk2jiLjWU5nHQY7igGE75NQ==
+  version "4.7.3"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.3.tgz#8ece2797826886cf8082d1726ff21d2a022550ee"
+  integrity sha512-SRGwSYuNfx8DwHD/6InAPzD6RgeruWLT+B8e8a7gGs8FWgHzlExpTFMEq2IA6QpAfOClpKHy6+8IqTjeBCu6Kg==
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
@@ -5511,6 +5521,13 @@ react-native-calendars@^1.212.0:
     prop-types "^15.5.10"
     xdate "^0.8.0"
 
+react-native-camera@^3.6.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/react-native-camera/-/react-native-camera-3.21.0.tgz#d8d5149c6bf5d84174093065e08e78b81d785e5d"
+  integrity sha512-xreKqJH6o4E6jgY4FM99Zl3nYo+MWkoWq3lW8xrIBeiNFMXtA5AohIftiWVqwlcH3CpcCBkc5hcHy2oE36rWNw==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native-charts-wrapper@^0.5.5:
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/react-native-charts-wrapper/-/react-native-charts-wrapper-0.5.5.tgz#9891f6020af25dd49598d6a18e4b35ac18953cd7"
@@ -5601,10 +5618,31 @@ react-native-orientation@^3.1.3:
   resolved "https://registry.yarnpkg.com/react-native-orientation/-/react-native-orientation-3.1.3.tgz#d45803841fe94b6cce9acbe904fd5ca191a3711e"
   integrity sha512-A0h0E+2f95X4avmhaBG1ZT8WDxBACA/q//JN2eF1E7kq8AJVxt5XDiavv+aSBkBlqFsfF3bIS+T/DB5mXmnxuA==
 
+react-native-permissions@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-1.2.1.tgz#cb1f6e53b8992b3912de5a4cfc1553ac2e82d0f6"
+  integrity sha512-6NOGsA7EsuKT9hfULccQfMrsGmRhBkmN6Uv8nz2QObjEG87XtroQtw4Qi1+tAjIkSHawCeAMJp+SCtiXSGUD5Q==
+
+react-native-permissions@^2.0.2:
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.0.10.tgz#d01f5ce7cc48f99d33f2f7ed32bb70abe5ea03dd"
+  integrity sha512-oQmWgm4tqUYyWmMNtYzNO7U/+6+WHyKiRd5cwNeE1FCJTGh8cJ5HapjHw3d6ZVfhSLzNwWqgJy1P4NpTANYa/g==
+
 react-native-picker@^4.3.7:
   version "4.3.7"
   resolved "https://registry.yarnpkg.com/react-native-picker/-/react-native-picker-4.3.7.tgz#9842e8c62ff0d8b676e9514d9f9172413c0518a8"
   integrity sha1-mELoxi/w2LZ26VFNn5FyQTwFGKg=
+
+react-native-qrcode-scanner@^1.2.3:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-qrcode-scanner/-/react-native-qrcode-scanner-1.4.0.tgz#9fc36580fa916be50a83ba6a3528873046bfc68f"
+  integrity sha512-W6wLJNbPQ/SQSRaVcAaGDN919me0LQQyHx7xzx3d/bB8NBya1RJ/bn7zUdnPUhSrp5OVDkGhW9BvRZBoX7xHPw==
+  dependencies:
+    "@react-native-community/async-storage" "^1.6.1"
+    opencollective "^1.0.3"
+    opencollective-postinstall "^2.0.2"
+    prop-types "^15.5.10"
+    react-native-permissions "^2.0.2"
 
 react-native-router-flux@^4.0.6:
   version "4.0.6"
@@ -5649,6 +5687,11 @@ react-native-simple-radio-button@^2.7.3:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/react-native-simple-radio-button/-/react-native-simple-radio-button-2.7.3.tgz#c7227c0f963d6bbcfa245255d18a5a8b98fde41f"
   integrity sha512-kiYRarFj7PXzV9fbQwMBiYwS4YnhrR4NZGT68atlFIoNFxZLrt5OMCDqXZqu6R6bUWKLndzPpO/nhXc6/OU1Mg==
+
+react-native-size-matters@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-size-matters/-/react-native-size-matters-0.2.1.tgz#036a139eb4257682a412cf33bb2089726fe636f3"
+  integrity sha512-u3XlYOt15SRjZtFdwiVIejp/X+gHj/uL6DcStNh4R8/7wGr2WkzpaG4C9YYPuZTJ0SwBJOCI4E1yCdQAOIi6fA==
 
 react-native-tab-view@^0.0.77:
   version "0.0.77"
@@ -6859,11 +6902,11 @@ uglify-es@^3.1.9:
     source-map "~0.6.1"
 
 uglify-js@^3.1.4:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.6.0.tgz#704681345c53a8b2079fb6cec294b05ead242ff5"
-  integrity sha512-W+jrUHJr3DXKhrsS7NUVxn3zqMOFn0hL/Ei6v0anCIMoKC93TjcflTagwIHLW7SfMFfiQuktQyFVCFHGUE0+yg==
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.8.1.tgz#43bb15ce6f545eaa0a64c49fd29375ea09fa0f93"
+  integrity sha512-W7KxyzeaQmZvUFbGj4+YFshhVrMBGSg2IbcYAjGWGvx8DHvJMclbTDMpffdxFUGPBHjIytk7KJUR/KUXstUGDw==
   dependencies:
-    commander "~2.20.0"
+    commander "~2.20.3"
     source-map "~0.6.1"
 
 ultron@1.0.x:
